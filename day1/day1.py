@@ -7,15 +7,14 @@ with open(path) as input:
     
     tempTotal = 0
 
-    for line in contents:
-        if (line == '\n'):
-            if (maxTotal < tempTotal):
-                maxTotal = tempTotal
-            
-            tempTotal = 0
-        else:
-            tempTotal += int(line)
-            print(f'tempTotal: {tempTotal}')
+for line in contents:
+    if (line == '\n'):
+        if (maxTotal < tempTotal):
+            maxTotal = tempTotal
+        
+        tempTotal = 0
+    else:
+        tempTotal += int(line)
 
     
-    print(f'Max Total: {maxTotal}')
+print(f'Max Total: {maxTotal}')
