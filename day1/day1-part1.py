@@ -1,4 +1,4 @@
-path = '/Users/jonivrapi/Documents/GitHub/advent-of-code-2022/day1/input.txt';
+path = '/Users/jonivrapi/Documents/GitHub/advent-of-code-2022/day1/input.txt'
 
 maxTotal = 0
 
